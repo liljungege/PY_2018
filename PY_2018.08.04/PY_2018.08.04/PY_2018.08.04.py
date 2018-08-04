@@ -40,5 +40,21 @@ while fahrenheit <= 250:
     celsius = (fahrenheit - 32) / 1.8
     print("{:5d} {:7.2f}".format(fahrenheit, celsius))
     fahrenheit = fahrenheit + 25
-'''
+
 days = int(input("Enter days: "))
+months = days // 30
+days = days % 30
+print("Months = {} Days = {}".format(months, days))
+days = int(input("Enter days: "))
+print("Months = {} Days = {}".format(*divmod(days, 30)))
+
+N = 100
+a = 2
+while a < N:
+    print(str(a))
+    a *= a
+'''
+sum = 0
+for i in range(1, 11):
+    sum += 1.0 / i;
+    print("{:2d} {:6.4f}".format(i, sum))
