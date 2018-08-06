@@ -51,8 +51,11 @@ def high(func, value):
     return func(value)
 lst = high(dir, int)
 print(lst[-3:])
-'''
+
 lst = [1, 2, 3, 4, 5]
 def square(num):
     return num ** 2
 print(list(map(square, lst)))
+'''
+fobj = open("s.txt")
+print(fobj)
