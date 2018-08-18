@@ -1,4 +1,6 @@
 from c1 import Student
 
-student = Student('hh', 18)
-print(student.name)
+student1 = Student('hh', 18)
+student1.marking(-1)
+# student2 = Student('dasd', 19)
+# print(student.name)
