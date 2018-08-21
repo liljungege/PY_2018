@@ -6,7 +6,15 @@ class VIP(Enum):
     BLACK = 3
     RED = 4
 
-class Common():
-    helo = 1
-print(VIP.YELLOW)
-Common.helo = 2
+class VIP1(Enum):
+    YELLOW = 1
+    GREEN = 2
+    BLACK = 3
+    RED = 4
+
+# result = VIP.GREEN == VIP1.GREEN
+# result1 = VIP.GREEN is VIP.GREEN
+# print(result)
+# print(result1)
+a = 1
+print(VIP(a))
